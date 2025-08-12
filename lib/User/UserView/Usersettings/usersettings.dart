@@ -266,7 +266,7 @@ class _UsersettingsState extends State<Usersettings> {
               onPressed: () {
                 Navigator.pop(context);
               },
-              style: TextButton.styleFrom(foregroundColor: Colors.red),
+              style: TextButton.styleFrom(foregroundColor: Colors.yellow),
               child: const Text('Sign Out'),
             ),
           ],
